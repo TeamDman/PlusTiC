@@ -1,6 +1,6 @@
-package landmaster.plustic.waila;
+package colonelgerdauf.plustic.waila;
 
-import landmaster.plustic.tile.*;
+import colonelgerdauf.plustic.tile.*;
 import mcp.mobius.waila.api.*;
 import slimeknights.tconstruct.plugin.waila.*;
 
