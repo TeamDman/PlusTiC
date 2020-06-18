@@ -31,14 +31,14 @@ import slimeknights.tconstruct.library.materials.*;
 import slimeknights.tconstruct.tools.*;
 
 @Mod.EventBusSubscriber
-@Mod(modid = ModInfo.MODID, name = ModInfo.NAME, version = ModInfo.VERSION, dependencies = ModInfo.DEPENDS, useMetadata = true, acceptedMinecraftVersions = "[1.12, 1.13)")
+@Mod(modid = ModInfo.MODID, name = ModInfo.NAME, version = ModInfo.VERSION, dependencies = ModInfo.DEPENDS, useMetadata = true, acceptedMinecraftVersions = "[1.12)")
 public class PlusTiC {
 	public static Config config;
 	
 	@Instance(ModInfo.MODID)
 	public static PlusTiC INSTANCE;
 	
-	@SidedProxy(serverSide = "landmaster.plustic.proxy.CommonProxy", clientSide = "landmaster.plustic.proxy.ClientProxy")
+	@SidedProxy(serverSide = "colonelgerdauf.plustic.proxy.CommonProxy", clientSide = "colonelgerdauf.plustic.proxy.ClientProxy")
 	public static CommonProxy proxy;
 	
 	public static final Logger log = LogManager.getLogger(
@@ -106,7 +106,6 @@ public class PlusTiC {
 		
 		IModule.modules.addAll(Arrays.asList(
 				new ModuleBase(),
-				
 				new ModuleNatura(),
 				new ModuleGems(),
 				new ModuleMekanism(),
@@ -118,8 +117,6 @@ public class PlusTiC {
 				new ModuleActAdd(),
 				new ModulePsi(),
 				new ModuleAvaritia(),
-				new ModuleLandCraft(),
-				new ModuleLandCore(),
 				new ModuleGalacticraft(),
 				new ModuleSurvivalist(),
 				new ModuleProjectE(),
@@ -129,12 +126,9 @@ public class PlusTiC {
 				new ModuleMFR(),
 				new ModuleThaumcraft(),
 				new ModuleAstralSorcery(),
-				
 				new ModuleTools(),
 				new ModuleModifiers(),
-				
 				new ModuleConArm(),
-				
 				new ModuleMachines()
 				));
 		
@@ -146,7 +140,7 @@ public class PlusTiC {
 		
 		preIntegrate();
 		
-		FMLInterModComms.sendMessage("waila", "register", "landmaster.plustic.waila.PTWailaRegistrar.wailaCallback");
+		FMLInterModComms.sendMessage("waila", "register", "colonelgerdauf.plustic.waila.PTWailaRegistrar.wailaCallback");
 		
 		NetworkRegistry.INSTANCE.registerGuiHandler(INSTANCE, new PTGuiHandler());
 	}
