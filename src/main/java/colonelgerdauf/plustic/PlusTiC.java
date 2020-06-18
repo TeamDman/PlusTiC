@@ -1,4 +1,4 @@
-package landmaster.plustic;
+package colonelgerdauf.plustic;
 
 import java.util.*;
 import java.util.Optional;
