@@ -86,7 +86,7 @@ public class ModuleGalacticraft implements IModule {
 				TinkerRegistry.registerMelting(new ItemStack(item_basic_mars), FluidRegistry.getFluid("desh"), Material.VALUE_Ingot);
 				OreDictionary.registerOre("ingotDesh", new ItemStack(item_basic_mars, 1, 2)); // see init3
 				TinkerRegistry.registerMelting(new ItemStack(item_basic_asteroids), FluidRegistry.getFluid("titanium"), Material.VALUE_Ingot);
-				OreDictionary.registerOre("ingotTitanuim", new ItemStack(item_basic_asteroids, 1, 2)); // see init3
+				OreDictionary.registerOre("ingotTitanuim", new ItemStack(item_basic_asteroids, 1, 0)); // see init3
 			}
 		}
 	}
