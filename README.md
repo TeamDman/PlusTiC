@@ -51,4 +51,4 @@ Chinese translation: @DYColdWind
 
 New weapon textures: @Tenebris11
 
-8.x tweaks: @Colonel_Gerdauf
+8.2.x tweaks: @Colonel_Gerdauf
