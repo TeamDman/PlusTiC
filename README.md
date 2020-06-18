@@ -1,4 +1,4 @@
-# PlusTiC (Minus Bad) AKA xXx_MoreToolMats_xXx
+# PlusTiC V2
 Minecraft mod for adding new tools to and integrating various mods with Tinkers Construct
 
 CurseForge page: https://www.curseforge.com/minecraft/mc-mods/plusticminusbad
