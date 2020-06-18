@@ -1,14 +1,14 @@
-package landmaster.plustic.modules;
+package colonelgerdauf.plustic.modules;
 
 import java.util.*;
 
 import c4.conarm.lib.materials.*;
 import c4.conarm.lib.utils.*;
-import landmaster.plustic.*;
-import landmaster.plustic.config.*;
-import landmaster.plustic.modifiers.armor.*;
-import landmaster.plustic.traits.*;
-import landmaster.plustic.traits.armor.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.config.*;
+import colonelgerdauf.plustic.modifiers.armor.*;
+import colonelgerdauf.plustic.traits.*;
+import colonelgerdauf.plustic.traits.armor.*;
 import net.minecraftforge.fml.common.Loader;
 import slimeknights.tconstruct.library.*;
 

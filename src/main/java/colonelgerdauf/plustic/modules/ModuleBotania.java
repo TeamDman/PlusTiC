@@ -1,4 +1,4 @@
-package landmaster.plustic.modules;
+package colonelgerdauf.plustic.modules;
 
 import static slimeknights.tconstruct.library.materials.MaterialTypes.*;
 import static slimeknights.tconstruct.library.utils.HarvestLevels.*;
@@ -10,12 +10,12 @@ import java.util.concurrent.*;
 import com.google.common.collect.*;
 
 import it.unimi.dsi.fastutil.objects.*;
-import landmaster.plustic.*;
-import landmaster.plustic.api.ModInfo;
-import landmaster.plustic.config.*;
-import landmaster.plustic.fluids.*;
-import landmaster.plustic.traits.*;
-import landmaster.plustic.util.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.api.ModInfo;
+import colonelgerdauf.plustic.config.*;
+import colonelgerdauf.plustic.fluids.*;
+import colonelgerdauf.plustic.traits.*;
+import colonelgerdauf.plustic.util.*;
 import net.minecraft.item.*;
 import net.minecraft.util.text.*;
 import net.minecraftforge.event.*;

@@ -1,13 +1,13 @@
-package landmaster.plustic.modules;
+package colonelgerdauf.plustic.modules;
 
-import landmaster.plustic.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.block.*;
-import landmaster.plustic.config.*;
-import landmaster.plustic.item.*;
-import landmaster.plustic.tile.*;
-import landmaster.plustic.tile.render.*;
-import landmaster.plustic.util.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.block.*;
+import colonelgerdauf.plustic.config.*;
+import colonelgerdauf.plustic.item.*;
+import colonelgerdauf.plustic.tile.*;
+import colonelgerdauf.plustic.tile.render.*;
+import colonelgerdauf.plustic.util.*;
 import net.minecraft.block.*;
 import net.minecraft.item.*;
 import net.minecraft.util.*;

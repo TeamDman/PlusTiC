@@ -1,4 +1,4 @@
-package landmaster.plustic.modules;
+package colonelgerdauf.plustic.modules;
 
 import com.progwml6.natura.nether.*;
 import com.progwml6.natura.nether.block.logs.*;

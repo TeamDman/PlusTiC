@@ -1,6 +1,6 @@
-package landmaster.plustic.modules;
+package colonelgerdauf.plustic.modules;
 
-import landmaster.plustic.config.*;
+import colonelgerdauf.plustic.config.*;
 import net.minecraftforge.fml.common.*;
 import slimeknights.tconstruct.library.*;
 import slimeknights.tconstruct.library.materials.*;

@@ -1,14 +1,14 @@
-package landmaster.plustic.modules;
+package colonelgerdauf.plustic.modules;
 
 import static slimeknights.tconstruct.library.materials.MaterialTypes.*;
 
 import java.util.concurrent.*;
 
-import landmaster.plustic.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.config.*;
-import landmaster.plustic.tools.stats.*;
-import landmaster.plustic.traits.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.config.*;
+import colonelgerdauf.plustic.tools.stats.*;
+import colonelgerdauf.plustic.traits.*;
 import net.minecraft.item.*;
 import net.minecraft.util.text.*;
 import net.minecraftforge.event.*;

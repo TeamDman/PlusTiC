@@ -1,13 +1,13 @@
-package landmaster.plustic.modules;
+package colonelgerdauf.plustic.modules;
 
 import java.util.*;
 
-import landmaster.plustic.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.config.*;
-import landmaster.plustic.tools.*;
-import landmaster.plustic.tools.parts.*;
-import landmaster.plustic.tools.stats.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.config.*;
+import colonelgerdauf.plustic.tools.*;
+import colonelgerdauf.plustic.tools.parts.*;
+import colonelgerdauf.plustic.tools.stats.*;
 import net.minecraft.item.*;
 import net.minecraft.util.*;
 import net.minecraftforge.event.*;

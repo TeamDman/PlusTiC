@@ -1,4 +1,4 @@
-package landmaster.plustic.modules;
+package colonelgerdauf.plustic.modules;
 
 import com.buuz135.industrial.entity.*;
 

@@ -1,12 +1,12 @@
-package landmaster.plustic.modules;
+package colonelgerdauf.plustic.modules;
 
 import static slimeknights.tconstruct.library.utils.HarvestLevels.*;
 
 import java.util.concurrent.*;
 
-import landmaster.plustic.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.config.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.config.*;
 import net.minecraft.item.*;
 import net.minecraft.util.*;
 import net.minecraftforge.event.*;

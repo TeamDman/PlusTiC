@@ -1,4 +1,4 @@
-package landmaster.plustic.modules;
+package colonelgerdauf.plustic.modules;
 
 import static slimeknights.tconstruct.library.utils.HarvestLevels.*;
 import static slimeknights.tconstruct.tools.TinkerTraits.*;
@@ -7,10 +7,10 @@ import java.util.concurrent.*;
 
 import com.progwml6.natura.shared.*;
 
-import landmaster.plustic.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.config.*;
-import landmaster.plustic.traits.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.config.*;
+import colonelgerdauf.plustic.traits.*;
 import net.minecraft.item.*;
 import net.minecraft.util.text.*;
 import net.minecraftforge.event.*;

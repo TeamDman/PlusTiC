@@ -1,11 +1,11 @@
-package landmaster.plustic.modules;
+package colonelgerdauf.plustic.modules;
 
-import landmaster.plustic.*;
-import landmaster.plustic.config.*;
-import landmaster.plustic.fluids.*;
-import landmaster.plustic.tools.stats.*;
-import landmaster.plustic.traits.*;
-import landmaster.plustic.util.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.config.*;
+import colonelgerdauf.plustic.fluids.*;
+import colonelgerdauf.plustic.tools.stats.*;
+import colonelgerdauf.plustic.traits.*;
+import colonelgerdauf.plustic.util.*;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.util.text.*;
 import net.minecraftforge.fml.common.*;

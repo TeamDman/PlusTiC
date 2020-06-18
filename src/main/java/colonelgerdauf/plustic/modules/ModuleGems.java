@@ -1,15 +1,15 @@
-package landmaster.plustic.modules;
+package colonelgerdauf.plustic.modules;
 
 import static slimeknights.tconstruct.library.materials.MaterialTypes.*;
 import static slimeknights.tconstruct.library.utils.HarvestLevels.*;
 import static slimeknights.tconstruct.tools.TinkerTraits.*;
 
-import landmaster.plustic.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.config.*;
-import landmaster.plustic.tools.stats.*;
-import landmaster.plustic.traits.*;
-import landmaster.plustic.util.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.config.*;
+import colonelgerdauf.plustic.tools.stats.*;
+import colonelgerdauf.plustic.traits.*;
+import colonelgerdauf.plustic.util.*;
 import net.minecraft.client.resources.*;
 import net.minecraft.item.*;
 import net.minecraft.nbt.*;
