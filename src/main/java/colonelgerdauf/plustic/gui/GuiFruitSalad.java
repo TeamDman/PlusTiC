@@ -1,7 +1,7 @@
-package landmaster.plustic.gui;
+package colonelgerdauf.plustic.gui;
 
-import landmaster.plustic.api.*;
-import landmaster.plustic.traits.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.traits.*;
 import net.minecraft.client.gui.inventory.*;
 import net.minecraft.client.renderer.*;
 import net.minecraft.entity.player.*;

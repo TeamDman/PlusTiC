@@ -1,10 +1,10 @@
-package landmaster.plustic.entity;
+package colonelgerdauf.plustic.entity;
 
 import java.util.*;
 
 import javax.annotation.*;
 
-import landmaster.plustic.entity.ai.*;
+import colonelgerdauf.plustic.entity.ai.*;
 import net.minecraft.enchantment.*;
 import net.minecraft.entity.*;
 import net.minecraft.entity.ai.*;

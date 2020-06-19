@@ -1,4 +1,4 @@
-package landmaster.plustic.traits.armor;
+package colonelgerdauf.plustic.traits.armor;
 
 import c4.conarm.lib.traits.*;
 import net.minecraft.entity.*;

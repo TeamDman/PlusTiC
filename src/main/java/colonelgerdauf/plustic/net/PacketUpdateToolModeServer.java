@@ -1,7 +1,7 @@
-package landmaster.plustic.net;
+package colonelgerdauf.plustic.net;
 
 import io.netty.buffer.*;
-import landmaster.plustic.tools.*;
+import colonelgerdauf.plustic.tools.*;
 import net.minecraft.util.*;
 import net.minecraft.util.text.*;
 import net.minecraft.world.*;

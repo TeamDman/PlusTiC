@@ -1,9 +1,9 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
 import hellfirepvp.astralsorcery.common.constellation.*;
 import hellfirepvp.astralsorcery.common.data.research.*;
 import hellfirepvp.astralsorcery.common.lib.*;
-import landmaster.plustic.api.*;
+import colonelgerdauf.plustic.api.*;
 import net.minecraft.entity.*;
 import net.minecraft.entity.player.*;
 import net.minecraft.item.*;

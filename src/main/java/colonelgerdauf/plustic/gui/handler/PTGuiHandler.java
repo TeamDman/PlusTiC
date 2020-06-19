@@ -1,8 +1,8 @@
-package landmaster.plustic.gui.handler;
+package colonelgerdauf.plustic.gui.handler;
 
-import landmaster.plustic.gui.*;
-import landmaster.plustic.gui.container.*;
-import landmaster.plustic.tile.*;
+import colonelgerdauf.plustic.gui.*;
+import colonelgerdauf.plustic.gui.container.*;
+import colonelgerdauf.plustic.tile.*;
 import net.minecraft.entity.player.*;
 import net.minecraft.inventory.*;
 import net.minecraft.tileentity.*;

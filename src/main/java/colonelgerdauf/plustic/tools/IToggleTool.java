@@ -1,10 +1,10 @@
-package landmaster.plustic.tools;
+package colonelgerdauf.plustic.tools;
 
 import java.util.*;
 
-import landmaster.plustic.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.net.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.net.*;
 import net.minecraft.client.*;
 import net.minecraft.entity.*;
 import net.minecraft.item.*;

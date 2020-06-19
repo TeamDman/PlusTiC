@@ -1,10 +1,10 @@
-package landmaster.plustic.fluids;
+package colonelgerdauf.plustic.fluids;
 
 import net.minecraft.item.*;
 import net.minecraft.util.*;
 import net.minecraft.util.text.translation.*;
 import net.minecraftforge.fluids.*;
-import landmaster.plustic.api.*;
+import colonelgerdauf.plustic.api.*;
 import slimeknights.tconstruct.library.fluid.*;
 
 public class FluidMolten extends FluidColored {

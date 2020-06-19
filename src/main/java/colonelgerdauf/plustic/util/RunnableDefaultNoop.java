@@ -1,4 +1,4 @@
-package landmaster.plustic.util;
+package colonelgerdauf.plustic.util;
 
 public interface RunnableDefaultNoop extends Runnable {
 	@Override

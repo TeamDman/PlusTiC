@@ -1,13 +1,13 @@
-package landmaster.plustic.tile;
+package colonelgerdauf.plustic.tile;
 
 import java.util.*;
 
 import javax.annotation.*;
 
-import landmaster.plustic.api.*;
-import landmaster.plustic.config.*;
-import landmaster.plustic.net.*;
-import landmaster.plustic.util.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.config.*;
+import colonelgerdauf.plustic.net.*;
+import colonelgerdauf.plustic.util.*;
 import net.minecraft.nbt.*;
 import net.minecraft.util.*;
 import net.minecraft.util.math.*;

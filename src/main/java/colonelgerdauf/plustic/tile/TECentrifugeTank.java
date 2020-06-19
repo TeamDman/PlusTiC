@@ -1,4 +1,4 @@
-package landmaster.plustic.tile;
+package colonelgerdauf.plustic.tile;
 
 public class TECentrifugeTank extends TECentrifuge {
 	{

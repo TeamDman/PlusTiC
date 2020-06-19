@@ -1,6 +1,6 @@
-package landmaster.plustic.entity.ai;
+package colonelgerdauf.plustic.entity.ai;
 
-import landmaster.plustic.entity.*;
+import colonelgerdauf.plustic.entity.*;
 import net.minecraft.entity.ai.*;
 
 public class EntityAIBlindBanditAttack extends EntityAIAttackMelee {

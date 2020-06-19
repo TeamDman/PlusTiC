@@ -1,9 +1,9 @@
-package landmaster.plustic.traits.armor;
+package colonelgerdauf.plustic.traits.armor;
 
 import java.util.*;
 
 import c4.conarm.lib.traits.*;
-import landmaster.plustic.util.Utils;
+import colonelgerdauf.plustic.util.Utils;
 import net.minecraft.entity.*;
 import net.minecraft.entity.monster.*;
 import net.minecraft.entity.player.*;

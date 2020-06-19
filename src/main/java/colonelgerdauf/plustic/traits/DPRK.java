@@ -1,6 +1,6 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
-import landmaster.plustic.entity.*;
+import colonelgerdauf.plustic.entity.*;
 
 public class DPRK extends EntityCameoTrait {
 	public static final DPRK dprk = new DPRK();

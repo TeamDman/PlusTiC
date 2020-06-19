@@ -1,11 +1,11 @@
-package landmaster.plustic.crafttweaker;
+package colonelgerdauf.plustic.crafttweaker;
 
 import com.blamejared.compat.tconstruct.materials.*;
 
 import crafttweaker.*;
 //import crafttweaker.IAction;
 import crafttweaker.annotations.*;
-import landmaster.plustic.tools.stats.*;
+import colonelgerdauf.plustic.tools.stats.*;
 import slimeknights.tconstruct.library.materials.*;
 //import crafttweaker.zenscript.IBracketHandler;
 import stanhebben.zenscript.annotations.*;

@@ -1,6 +1,6 @@
-package landmaster.plustic.tile.render;
+package colonelgerdauf.plustic.tile.render;
 
-import landmaster.plustic.tile.*;
+import colonelgerdauf.plustic.tile.*;
 import net.minecraft.client.renderer.tileentity.*;
 import net.minecraftforge.fluids.*;
 import slimeknights.tconstruct.library.client.*;

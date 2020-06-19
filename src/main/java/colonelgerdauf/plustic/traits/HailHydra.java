@@ -1,10 +1,10 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
 import java.util.*;
 
 import com.google.common.collect.*;
 
-import landmaster.plustic.util.*;
+import colonelgerdauf.plustic.util.*;
 import net.minecraft.entity.*;
 import net.minecraft.entity.monster.*;
 import net.minecraft.init.*;

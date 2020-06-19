@@ -1,10 +1,10 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
 import java.util.*;
 
 import com.google.common.collect.*;
 
-import landmaster.plustic.config.*;
+import colonelgerdauf.plustic.config.*;
 import net.minecraft.nbt.*;
 import slimeknights.tconstruct.library.traits.*;
 import slimeknights.tconstruct.library.utils.*;

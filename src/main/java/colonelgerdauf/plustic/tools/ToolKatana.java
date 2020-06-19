@@ -1,11 +1,11 @@
-package landmaster.plustic.tools;
+package colonelgerdauf.plustic.tools;
 
 import java.awt.Color;
 import java.util.*;
 
 import javax.annotation.*;
 
-import landmaster.plustic.config.*;
+import colonelgerdauf.plustic.config.*;
 import net.minecraft.client.*;
 import net.minecraft.client.resources.*;
 import net.minecraft.entity.*;

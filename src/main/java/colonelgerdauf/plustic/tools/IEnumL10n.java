@@ -1,4 +1,4 @@
-package landmaster.plustic.tools;
+package colonelgerdauf.plustic.tools;
 
 public interface IEnumL10n {
 	String getUnlocName();

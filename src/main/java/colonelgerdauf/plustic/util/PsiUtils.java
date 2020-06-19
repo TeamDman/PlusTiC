@@ -1,4 +1,4 @@
-package landmaster.plustic.util;
+package colonelgerdauf.plustic.util;
 
 import net.minecraft.entity.player.*;
 import net.minecraftforge.fml.common.*;

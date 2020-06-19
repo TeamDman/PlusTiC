@@ -1,10 +1,10 @@
-package landmaster.plustic.net;
+package colonelgerdauf.plustic.net;
 
 import java.util.*;
 import java.util.stream.*;
 
 import io.netty.buffer.*;
-import landmaster.plustic.api.*;
+import colonelgerdauf.plustic.api.*;
 import net.minecraft.util.*;
 import net.minecraft.world.*;
 import net.minecraftforge.fml.common.network.simpleimpl.*;

@@ -1,4 +1,4 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
 import it.unimi.dsi.fastutil.objects.*;
 import net.minecraft.block.state.*;

@@ -1,6 +1,6 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
-import landmaster.plustic.entity.*;
+import colonelgerdauf.plustic.entity.*;
 
 public class BlindBandit extends EntityCameoTrait {
 	public static final BlindBandit blindbandit = new BlindBandit();

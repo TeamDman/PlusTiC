@@ -1,8 +1,8 @@
-package landmaster.plustic.net;
+package colonelgerdauf.plustic.net;
 
 import io.netty.buffer.*;
-import landmaster.plustic.modifiers.armor.*;
-import landmaster.plustic.util.Utils;
+import colonelgerdauf.plustic.modifiers.armor.*;
+import colonelgerdauf.plustic.util.Utils;
 import net.minecraft.inventory.*;
 import net.minecraft.item.*;
 import net.minecraft.util.*;

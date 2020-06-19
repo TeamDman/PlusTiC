@@ -1,4 +1,4 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
 import java.util.*;
 import java.util.function.*;
@@ -6,8 +6,8 @@ import java.util.function.*;
 import c4.conarm.lib.armor.*;
 import c4.conarm.lib.capabilities.*;
 import c4.conarm.lib.traits.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.util.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.util.*;
 import net.minecraft.entity.*;
 import net.minecraft.entity.item.*;
 import net.minecraft.entity.player.*;
@@ -31,7 +31,7 @@ import slimeknights.tconstruct.library.utils.*;
 
 /**
  * Abstract class for PlusTiC traits that rescue the holder from death given certain items.
- * @author Landmaster
+ * @author colonelgerdauf
  *
  */
 @net.minecraftforge.fml.common.Optional.Interface(iface = "c4.conarm.lib.traits.IArmorTrait", modid = "conarm")

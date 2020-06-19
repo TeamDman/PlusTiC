@@ -1,4 +1,4 @@
-package landmaster.plustic.block;
+package colonelgerdauf.plustic.block;
 
 import net.minecraft.item.*;
 

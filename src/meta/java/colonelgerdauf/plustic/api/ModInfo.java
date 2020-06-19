@@ -1,4 +1,4 @@
-package landmaster.plustic.api;
+package colonelgerdauf.plustic.api;
 
 public class ModInfo {
 

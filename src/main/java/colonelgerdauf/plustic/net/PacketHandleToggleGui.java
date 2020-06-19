@@ -1,9 +1,9 @@
-package landmaster.plustic.net;
+package colonelgerdauf.plustic.net;
 
 import java.util.*;
 
 import io.netty.buffer.*;
-import landmaster.plustic.api.*;
+import colonelgerdauf.plustic.api.*;
 import net.minecraft.entity.player.*;
 import net.minecraft.nbt.*;
 import net.minecraft.util.*;

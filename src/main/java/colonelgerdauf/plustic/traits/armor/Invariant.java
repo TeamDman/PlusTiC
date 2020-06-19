@@ -1,11 +1,11 @@
-package landmaster.plustic.traits.armor;
+package colonelgerdauf.plustic.traits.armor;
 
 import java.util.*;
 
 import c4.conarm.lib.capabilities.*;
 import c4.conarm.lib.traits.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.util.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.util.*;
 import net.minecraft.entity.player.*;
 import net.minecraftforge.common.*;
 import net.minecraftforge.common.capabilities.Capability;

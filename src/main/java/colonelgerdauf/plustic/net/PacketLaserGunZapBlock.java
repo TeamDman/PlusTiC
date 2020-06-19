@@ -1,9 +1,9 @@
-package landmaster.plustic.net;
+package colonelgerdauf.plustic.net;
 
 import java.util.*;
 
 import io.netty.buffer.*;
-import landmaster.plustic.tools.ToolLaserGun;
+import colonelgerdauf.plustic.tools.ToolLaserGun;
 import net.minecraft.client.*;
 import net.minecraft.util.math.*;
 import net.minecraftforge.fml.common.network.simpleimpl.*;

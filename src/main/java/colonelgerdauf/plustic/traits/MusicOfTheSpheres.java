@@ -1,4 +1,4 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
 import java.util.*;
 
@@ -6,9 +6,9 @@ import javax.annotation.*;
 
 import com.google.common.collect.*;
 
-import landmaster.plustic.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.net.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.net.*;
 import net.minecraft.client.*;
 import net.minecraft.entity.player.*;
 import net.minecraft.item.*;

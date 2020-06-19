@@ -1,9 +1,9 @@
-package landmaster.plustic.crafttweaker;
+package colonelgerdauf.plustic.crafttweaker;
 
 import com.blamejared.compat.tconstruct.materials.*;
 
 import crafttweaker.*;
-import landmaster.plustic.tools.stats.*;
+import colonelgerdauf.plustic.tools.stats.*;
 import slimeknights.tconstruct.library.materials.*;
 
 public class SetEnergyAction implements IAction {

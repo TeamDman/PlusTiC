@@ -1,4 +1,4 @@
-package landmaster.plustic.util;
+package colonelgerdauf.plustic.util;
 
 import java.util.*;
 import java.util.concurrent.*;
@@ -7,7 +7,7 @@ import org.apache.commons.lang3.*;
 
 import com.google.common.collect.*;
 
-import landmaster.plustic.api.*;
+import colonelgerdauf.plustic.api.*;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.common.*;
 import net.minecraftforge.fml.common.eventhandler.*;
@@ -15,7 +15,7 @@ import net.minecraftforge.oredict.*;
 
 /**
  * A little solution I rolled out for handling <em>extremely</em> annoying registry event mayhem…
- * @author Landmaster
+ * @author colonelgerdauf
  *
  */
 @Mod.EventBusSubscriber(modid = ModInfo.MODID)

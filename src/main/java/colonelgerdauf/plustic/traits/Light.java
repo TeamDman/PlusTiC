@@ -1,4 +1,4 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
 import net.minecraftforge.common.*;
 import net.minecraftforge.fml.common.eventhandler.*;

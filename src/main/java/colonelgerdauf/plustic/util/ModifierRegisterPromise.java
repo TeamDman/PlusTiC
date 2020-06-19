@@ -1,11 +1,11 @@
-package landmaster.plustic.util;
+package colonelgerdauf.plustic.util;
 
 import java.util.*;
 import java.util.concurrent.*;
 
 import com.google.common.collect.*;
 
-import landmaster.plustic.api.*;
+import colonelgerdauf.plustic.api.*;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.*;
 import slimeknights.tconstruct.library.*;

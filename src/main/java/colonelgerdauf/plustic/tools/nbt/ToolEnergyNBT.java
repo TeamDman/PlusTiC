@@ -1,8 +1,8 @@
-package landmaster.plustic.tools.nbt;
+package colonelgerdauf.plustic.tools.nbt;
 
 import java.util.*;
 
-import landmaster.plustic.tools.stats.*;
+import colonelgerdauf.plustic.tools.stats.*;
 import net.minecraft.nbt.*;
 import slimeknights.tconstruct.library.tools.*;
 

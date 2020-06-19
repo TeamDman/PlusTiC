@@ -1,4 +1,4 @@
-package landmaster.plustic.modifiers.armor;
+package colonelgerdauf.plustic.modifiers.armor;
 
 import java.lang.invoke.*;
 import java.lang.reflect.*;
@@ -17,10 +17,10 @@ import c4.conarm.lib.armor.*;
 import c4.conarm.lib.modifiers.*;
 import c4.conarm.lib.tinkering.*;
 import it.unimi.dsi.fastutil.ints.*;
-import landmaster.plustic.api.Sounds;
-import landmaster.plustic.config.*;
-import landmaster.plustic.net.*;
-import landmaster.plustic.util.*;
+import colonelgerdauf.plustic.api.Sounds;
+import colonelgerdauf.plustic.config.*;
+import colonelgerdauf.plustic.net.*;
+import colonelgerdauf.plustic.util.*;
 import net.minecraft.client.*;
 import net.minecraft.client.gui.*;
 import net.minecraft.client.model.*;
@@ -65,7 +65,7 @@ import tonius.simplyjetpacks.util.*;
 
 /**
  * Adapted from SimplyJetpack2's code.
- * @author Landmaster
+ * @author colonelgerdauf
  *
  */
 public class JetpackPancakeHippos extends ArmorModifierTrait {

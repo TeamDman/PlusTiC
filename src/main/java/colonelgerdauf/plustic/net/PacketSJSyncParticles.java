@@ -1,7 +1,7 @@
-package landmaster.plustic.net;
+package colonelgerdauf.plustic.net;
 
 import io.netty.buffer.*;
-import landmaster.plustic.modifiers.armor.*;
+import colonelgerdauf.plustic.modifiers.armor.*;
 import net.minecraft.client.*;
 import net.minecraft.entity.*;
 import net.minecraftforge.fml.common.network.simpleimpl.*;

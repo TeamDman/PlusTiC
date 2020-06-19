@@ -1,11 +1,11 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
 import javax.annotation.*;
 
-import landmaster.plustic.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.config.Config;
-import landmaster.plustic.net.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.config.Config;
+import colonelgerdauf.plustic.net.*;
 import net.minecraft.client.*;
 import net.minecraft.item.*;
 import net.minecraft.nbt.*;
@@ -23,7 +23,7 @@ import slimeknights.tconstruct.library.utils.*;
 
 /**
  * First step, meme this trait to death…
- * @author Landmaster
+ * @author colonelgerdauf
  *
  */
 @SuppressWarnings({ "unchecked", "rawtypes" })

@@ -1,10 +1,10 @@
-package landmaster.plustic.api;
+package colonelgerdauf.plustic.api;
 
 import java.lang.ref.*;
 
 import it.unimi.dsi.fastutil.ints.*;
-import landmaster.plustic.modifiers.armor.*;
-import landmaster.plustic.traits.*;
+import colonelgerdauf.plustic.modifiers.armor.*;
+import colonelgerdauf.plustic.traits.*;
 import net.minecraft.client.audio.*;
 import net.minecraft.entity.*;
 import net.minecraft.entity.player.*;

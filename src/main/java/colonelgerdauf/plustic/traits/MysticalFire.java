@@ -1,8 +1,8 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
 import javax.annotation.*;
 
-import landmaster.plustic.api.*;
+import colonelgerdauf.plustic.api.*;
 import net.minecraft.entity.*;
 import net.minecraft.item.*;
 import net.minecraft.potion.*;

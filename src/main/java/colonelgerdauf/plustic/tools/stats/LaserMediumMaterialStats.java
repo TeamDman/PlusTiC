@@ -1,4 +1,4 @@
-package landmaster.plustic.tools.stats;
+package colonelgerdauf.plustic.tools.stats;
 
 import java.util.*;
 

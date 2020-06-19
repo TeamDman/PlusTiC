@@ -1,9 +1,9 @@
-package landmaster.plustic.net;
+package colonelgerdauf.plustic.net;
 
 import java.util.*;
 
 import io.netty.buffer.*;
-import landmaster.plustic.api.*;
+import colonelgerdauf.plustic.api.*;
 import net.minecraft.client.*;
 import net.minecraftforge.fml.common.*;
 import net.minecraftforge.fml.common.network.*;
@@ -22,7 +22,7 @@ public class PacketOpenToggleGui implements IMessage {
 		return null;
 	}
 	
-	@SidedProxy(clientSide = "landmaster.plustic.net.PacketOpenToggleGui$ProxyClient", serverSide = "landmaster.plustic.net.PacketOpenToggleGui$Proxy")
+	@SidedProxy(clientSide = "colonelgerdauf.plustic.net.PacketOpenToggleGui$ProxyClient", serverSide = "colonelgerdauf.plustic.net.PacketOpenToggleGui$Proxy")
 	public static Proxy proxy;
 	
 	public static class Proxy {

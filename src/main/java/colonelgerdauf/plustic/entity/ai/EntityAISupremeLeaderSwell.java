@@ -1,6 +1,6 @@
-package landmaster.plustic.entity.ai;
+package colonelgerdauf.plustic.entity.ai;
 
-import landmaster.plustic.entity.EntitySupremeLeader;
+import colonelgerdauf.plustic.entity.EntitySupremeLeader;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.ai.EntityAIBase;
 

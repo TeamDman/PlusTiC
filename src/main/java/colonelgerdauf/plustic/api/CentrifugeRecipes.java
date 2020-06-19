@@ -1,10 +1,10 @@
-package landmaster.plustic.api;
+package colonelgerdauf.plustic.api;
 
 import java.lang.reflect.*;
 
 import com.google.common.base.*;
 
-import landmaster.plustic.config.*;
+import colonelgerdauf.plustic.config.*;
 import net.minecraftforge.fluids.*;
 import slimeknights.tconstruct.library.smeltery.*;
 import slimeknights.tconstruct.smeltery.tileentity.*;

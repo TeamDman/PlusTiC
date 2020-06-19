@@ -1,4 +1,4 @@
-package landmaster.plustic.api;
+package colonelgerdauf.plustic.api;
 
 import java.io.*;
 import java.util.*;
@@ -9,8 +9,8 @@ import org.lwjgl.opengl.*;
 import c4.conarm.lib.capabilities.*;
 import it.unimi.dsi.fastutil.booleans.*;
 import it.unimi.dsi.fastutil.objects.*;
-import landmaster.plustic.*;
-import landmaster.plustic.net.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.net.*;
 import net.minecraft.client.gui.*;
 import net.minecraft.client.renderer.*;
 import net.minecraft.client.resources.*;
@@ -34,7 +34,7 @@ import slimeknights.tconstruct.library.utils.*;
 /**
  * 
  * Class for toggleable modifiers
- * @author Landmaster
+ * @author colonelgerdauf
  *
  */
 public class Toggle {

@@ -1,4 +1,4 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
 import net.minecraft.entity.*;
 import net.minecraft.item.*;

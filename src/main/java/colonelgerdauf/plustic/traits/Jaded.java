@@ -1,6 +1,6 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
-import landmaster.plustic.tools.*;
+import colonelgerdauf.plustic.tools.*;
 import net.minecraft.entity.*;
 import net.minecraft.item.*;
 import net.minecraft.nbt.*;

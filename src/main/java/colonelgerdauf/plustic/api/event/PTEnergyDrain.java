@@ -1,4 +1,4 @@
-package landmaster.plustic.api.event;
+package colonelgerdauf.plustic.api.event;
 
 import net.minecraft.entity.player.*;
 import net.minecraft.item.*;

@@ -1,15 +1,15 @@
-package landmaster.plustic.proxy;
+package colonelgerdauf.plustic.proxy;
 
 import java.util.*;
 
 import javax.annotation.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.api.Sounds;
-import landmaster.plustic.entity.*;
-import landmaster.plustic.entity.render.*;
-import landmaster.plustic.modules.*;
-import landmaster.plustic.traits.*;
-import landmaster.plustic.util.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.api.Sounds;
+import colonelgerdauf.plustic.entity.*;
+import colonelgerdauf.plustic.entity.render.*;
+import colonelgerdauf.plustic.modules.*;
+import colonelgerdauf.plustic.traits.*;
+import colonelgerdauf.plustic.util.*;
 import net.minecraft.client.*;
 import net.minecraft.client.audio.*;
 import net.minecraft.client.renderer.*;

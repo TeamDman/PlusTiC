@@ -1,4 +1,4 @@
-package landmaster.plustic.traits;
+package colonelgerdauf.plustic.traits;
 
 import net.minecraft.block.BlockStone;
 import net.minecraft.block.state.*;

@@ -1,9 +1,9 @@
-package landmaster.plustic.entity.render;
+package colonelgerdauf.plustic.entity.render;
 
 import javax.annotation.*;
 
-import landmaster.plustic.api.*;
-import landmaster.plustic.entity.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.entity.*;
 import net.minecraft.client.renderer.entity.*;
 import net.minecraft.util.*;
 

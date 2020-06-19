@@ -1,12 +1,12 @@
-package landmaster.plustic.block;
+package colonelgerdauf.plustic.block;
 
 import java.util.*;
 
 import javax.annotation.*;
 
-import landmaster.plustic.*;
-import landmaster.plustic.gui.handler.*;
-import landmaster.plustic.tile.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.gui.handler.*;
+import colonelgerdauf.plustic.tile.*;
 import net.minecraft.block.*;
 import net.minecraft.block.material.*;
 import net.minecraft.block.properties.*;

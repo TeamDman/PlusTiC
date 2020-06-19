@@ -1,4 +1,4 @@
-package landmaster.plustic.util;
+package colonelgerdauf.plustic.util;
 
 import net.minecraft.client.renderer.*;
 import net.minecraft.util.math.*;

@@ -1,9 +1,9 @@
-package landmaster.plustic.proxy;
+package colonelgerdauf.plustic.proxy;
 
-import landmaster.plustic.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.entity.*;
-import landmaster.plustic.util.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.entity.*;
+import colonelgerdauf.plustic.util.*;
 import net.minecraft.entity.player.*;
 import net.minecraft.item.*;
 import net.minecraft.util.*;

@@ -1,4 +1,4 @@
-package landmaster.plustic.util;
+package colonelgerdauf.plustic.util;
 
 import java.lang.invoke.*;
 import java.lang.reflect.*;
@@ -13,10 +13,10 @@ import org.apache.commons.lang3.StringUtils;
 
 import com.google.common.base.Throwables;
 
-import landmaster.plustic.*;
-import landmaster.plustic.api.*;
-import landmaster.plustic.block.*;
-import landmaster.plustic.fluids.*;
+import colonelgerdauf.plustic.*;
+import colonelgerdauf.plustic.api.*;
+import colonelgerdauf.plustic.block.*;
+import colonelgerdauf.plustic.fluids.*;
 import net.darkhax.tesla.capability.*;
 import net.minecraft.block.*;
 import net.minecraft.entity.*;

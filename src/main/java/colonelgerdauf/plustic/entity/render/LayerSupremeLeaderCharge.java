@@ -1,6 +1,6 @@
-package landmaster.plustic.entity.render;
+package colonelgerdauf.plustic.entity.render;
 
-import landmaster.plustic.entity.*;
+import colonelgerdauf.plustic.entity.*;
 import net.minecraft.client.*;
 import net.minecraft.client.model.*;
 import net.minecraft.client.renderer.*;

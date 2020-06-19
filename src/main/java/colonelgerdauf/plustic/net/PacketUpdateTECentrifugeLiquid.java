@@ -1,8 +1,8 @@
-package landmaster.plustic.net;
+package colonelgerdauf.plustic.net;
 
 import io.netty.buffer.*;
-import landmaster.plustic.tile.*;
-import landmaster.plustic.util.*;
+import colonelgerdauf.plustic.tile.*;
+import colonelgerdauf.plustic.util.*;
 import net.minecraft.client.*;
 import net.minecraft.nbt.*;
 import net.minecraft.tileentity.*;
