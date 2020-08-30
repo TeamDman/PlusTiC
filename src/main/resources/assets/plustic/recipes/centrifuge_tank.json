@@ -1,31 +1,31 @@
 {
-	"conditions": [
-		{
-			"type": "minecraft:item_exists",
-			"item": "plustic:centrifuge"
-		}
-	],
-	"type": "forge:ore_shaped",
-	"pattern": [
-		"IGI",
-		"GSG",
-		"IGI"
-	],
-	"key": {
-		"I": {
-			"type": "forge:ore_dict",
-			"ore": "ingotIron"
-		},
-		"S": {
-			"item": "minecraft:iron_shovel"
-		},
-		"G": {
-			"type": "forge:ore_dict",
-			"ore": "blockGlass"
-		}
-	},
-	"result": {
-		"item": "plustic:centrifuge",
-		"data": 0
-	}
+  "conditions": [
+    {
+      "type": "minecraft:item_exists",
+      "item": "plustic:centrifuge"
+    }
+  ],
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "IGI",
+    "GSG",
+    "IGI"
+  ],
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "S": {
+      "item": "minecraft:iron_shovel"
+    },
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "blockGlass"
+    }
+  },
+  "result": {
+    "item": "plustic:centrifuge",
+    "data": 0
+  }
 }

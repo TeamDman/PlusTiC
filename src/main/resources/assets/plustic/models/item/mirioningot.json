@@ -1,6 +1,6 @@
 {
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "plustic:items/mirioningot"
-	}
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "plustic:items/mirioningot"
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/plusticminusbad",
+  "promos": {
+    "1.12.2-latest": "8.1.0.1",
+    "1.12.2-recommended": "8.1.0.1"
+  },
+  "1.12.2": {
+    "8.1.0.1": "Updated integrated mod versions",
+    "8.0.1.0": "New PlusTiC Minus Bad Mod for 1.12.2"
+  }
+}

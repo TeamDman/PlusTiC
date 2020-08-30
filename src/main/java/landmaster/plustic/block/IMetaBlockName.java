@@ -1,7 +1,8 @@
 package landmaster.plustic.block;
 
-import net.minecraft.item.*;
+import net.minecraft.item.ItemStack;
 
 public interface IMetaBlockName {
-	String getSpecialName(ItemStack stack);
+
+    String getSpecialName(ItemStack stack);
 }

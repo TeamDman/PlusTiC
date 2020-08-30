@@ -1,18 +1,18 @@
 {
-	"conditions": [
-		{
-			"type": "minecraft:item_exists",
-			"item": "plustic:invaringot"
-		}
-	],
-	"type": "forge:ore_shapeless",
-	"ingredients": [
-		{
-			"item": "plustic:invaringot"
-		}
-	],
-	"result": {
-		"item": "plustic:invarnugget",
-		"count": 9
-	}
+  "conditions": [
+    {
+      "type": "minecraft:item_exists",
+      "item": "plustic:invaringot"
+    }
+  ],
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "plustic:invaringot"
+    }
+  ],
+  "result": {
+    "item": "plustic:invarnugget",
+    "count": 9
+  }
 }

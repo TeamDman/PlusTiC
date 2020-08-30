@@ -1,10 +1,10 @@
 package landmaster.plustic.entity.ai;
 
-import landmaster.plustic.entity.*;
-import net.minecraft.entity.ai.*;
+import landmaster.plustic.entity.EntityBlindBandit;
+import net.minecraft.entity.ai.EntityAIAttackMelee;
 
 public class EntityAIBlindBanditAttack extends EntityAIAttackMelee {
-	private int raiseArmTicks;
+    private int raiseArmTicks;
     private EntityBlindBandit bandit;
 
     public EntityAIBlindBanditAttack(EntityBlindBandit banditIn, double speedIn, boolean longMemoryIn) {
@@ -37,11 +37,6 @@ public class EntityAIBlindBanditAttack extends EntityAIAttackMelee {
     public void updateTask() {
         super.updateTask();
         ++this.raiseArmTicks;
-
-        if (this.raiseArmTicks >= 5 && this.attackTick < 10) {
-            this.bandit.setArmsRaised(true);
-        } else {
-            this.bandit.setArmsRaised(false);
-        }
+        this.bandit.setArmsRaised(this.raiseArmTicks >= 5 && this.attackTick < 10);
     }
 }

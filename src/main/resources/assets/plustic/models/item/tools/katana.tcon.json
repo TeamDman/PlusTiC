@@ -1,9 +1,9 @@
 {
-	"textures": {
-		"layer0": "plustic:items/katana/handle",
-		"layer1": "plustic:items/katana/topblade",
-		"layer2": "plustic:items/katana/bottomblade",
-		"layer3": "plustic:items/katana/binding",
-		"broken1": "plustic:items/katana/topblade_broken"
-	}
+  "textures": {
+    "layer0": "plustic:items/katana/handle",
+    "layer1": "plustic:items/katana/topblade",
+    "layer2": "plustic:items/katana/bottomblade",
+    "layer3": "plustic:items/katana/binding",
+    "broken1": "plustic:items/katana/topblade_broken"
+  }
 }

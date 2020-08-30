@@ -1,15 +1,19 @@
-# PlusTiC (Minus Bad) AKA xXx_MoreToolMats_xXx
-Minecraft mod for adding new tools to and integrating various mods with Tinkers Construct
+[![CurseForge](http://cf.way2muchnoise.eu/376903.svg)](https://www.curseforge.com/minecraft/mc-mods/plusticminusbad)
+[![CurseForge](http://cf.way2muchnoise.eu/versions/376903.svg)](https://www.curseforge.com/minecraft/mc-mods/plusticminusbad)
 
-CurseForge page: https://www.curseforge.com/minecraft/mc-mods/plusticminusbad
-## New tool(s)
+![PlusTiC Minus Bad Logo](https://raw.githubusercontent.com/TeamDman/PlusTiC/1.12/src/main/resources/assets/plustic/logo.png "PlusTiC Minus Bad Logo")
+
+# PlusTiC Minus Bad
+Minecraft mod for adding new tools to and integrating various mods with Tinkers Construct.
+
+Downloads for the mod can be found on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/plusticminusbad "CurseForge - PlusTic Minus Bad")
+
+## New Tools
 - Katana. A fast two-handed weapon that deals increasing damage the more mobs you kill.
-- Laser Gun. A ranged weapon that requires durability and energy (Forge, Tesla, RF).
-## A note about Natural Pledge
-Starting in 5.1.2.0, PlusTiC forces out and *overrides* Natural Pledge TiC materials by default. This can be changed in the config so that PlusTiC does *not* add Botania materials if Natural Pledge is loaded.
-## Supported mods
-- LandCore (by this mod's author)
-- LandCraft (also by this mod's author)
+- Laser Gun. A ranged weapon that requires durability and energy (Forge Energy, Tesla, RedstoneFlux).
+
+## Supported Mods
+- Simply Jetpacks 2 by Tomson124
 - Biomes o Plenty by Glitchfiend
 - Project Red by MrTJP
 - Mekanism by aidencbrady
@@ -27,10 +31,12 @@ Starting in 5.1.2.0, PlusTiC forces out and *overrides* Natural Pledge TiC mater
 - Survivalist by gigaherz
 - ProjectE by sinkillerj
 - Gems+ by RobZ51
-- Applied Energistics 2 by AlgorithmX2 (Llamagistics by thiakil should work as well)
+- Applied Energistics 2 by AlgorithmX2 (Llamagistics by Thiakil should work as well)
 - Environmental Tech by ValkyrieofNight
 - Thaumcraft by azanor
-- Simply Jetpacks by Tomson124
+- LandCore by Landmaster
+- LandCraft by Landmaster
+
 ## Using the source and building
 After cloning this repository, run the command (with working directory in the folder with the repository)
 ```
@@ -46,8 +52,12 @@ Build with
 ./gradlew clean
 ./gradlew build
 ```
+
 ## Developers/Credits
-Creator/Lead Developer: @Landmaster
+
+New Developer: TeamDman
+
+Creator/Original Developer: @Landmaster
 
 Chinese translation: @DYColdWind
 

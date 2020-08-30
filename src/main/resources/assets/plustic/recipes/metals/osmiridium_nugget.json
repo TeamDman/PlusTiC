@@ -1,18 +1,18 @@
 {
-	"conditions": [
-		{
-			"type": "minecraft:item_exists",
-			"item": "plustic:osmiridiumingot"
-		}
-	],
-	"type": "forge:ore_shapeless",
-	"ingredients": [
-		{
-			"item": "plustic:osmiridiumingot"
-		}
-	],
-	"result": {
-		"item": "plustic:osmiridiumnugget",
-		"count": 9
-	}
+  "conditions": [
+    {
+      "type": "minecraft:item_exists",
+      "item": "plustic:osmiridiumingot"
+    }
+  ],
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "plustic:osmiridiumingot"
+    }
+  ],
+  "result": {
+    "item": "plustic:osmiridiumnugget",
+    "count": 9
+  }
 }
