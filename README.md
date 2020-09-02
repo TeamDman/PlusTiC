@@ -57,8 +57,8 @@ Build with
 
 New Developer: TeamDman
 
-Creator/Original Developer: @Landmaster
+Creator/Original Developer: Landmaster
 
-Chinese translation: @DYColdWind
+Chinese translation: DYColdWind
 
-New weapon textures: @Tenebris11
+New weapon textures: Tenebris11
