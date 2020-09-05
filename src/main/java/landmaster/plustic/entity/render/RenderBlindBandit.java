@@ -1,22 +1,22 @@
 package landmaster.plustic.entity.render;
 
-import javax.annotation.*;
+import landmaster.plustic.entity.EntityBlindBandit;
+import net.minecraft.client.renderer.entity.RenderLiving;
+import net.minecraft.client.renderer.entity.RenderManager;
+import net.minecraft.util.ResourceLocation;
 
-import landmaster.plustic.api.*;
-import landmaster.plustic.entity.*;
-import net.minecraft.client.renderer.entity.*;
-import net.minecraft.util.*;
+import javax.annotation.Nonnull;
 
 public class RenderBlindBandit extends RenderLiving<EntityBlindBandit> {
-	public static final ResourceLocation tex = new ResourceLocation(ModInfo.MODID+":textures/entity/blindbandit.png");
-	
-	public RenderBlindBandit(RenderManager rendermanagerIn) {
-		super(rendermanagerIn, new ModelBlindBandit(), 0.5F);
-	}
-	
-	@Override
+    public static final ResourceLocation tex = new ResourceLocation(ModInfo.MODID + ":textures/entity/blindbandit.png");
+
+    public RenderBlindBandit(RenderManager rendermanagerIn) {
+        super(rendermanagerIn, new ModelBlindBandit(), 0.5F);
+    }
+
+    @Override
     @Nonnull
     protected ResourceLocation getEntityTexture(@Nonnull EntityBlindBandit ent) {
-		return tex;
-	}
+        return tex;
+    }
 }

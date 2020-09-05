@@ -1,18 +1,18 @@
 {
-	"conditions": [
-		{
-			"type": "minecraft:item_exists",
-			"item": "plustic:alumiteingot"
-		}
-	],
-	"type": "forge:ore_shapeless",
-	"ingredients": [
-		{
-			"item": "plustic:alumiteingot"
-		}
-	],
-	"result": {
-		"item": "plustic:alumitenugget",
-		"count": 9
-	}
+  "conditions": [
+    {
+      "type": "minecraft:item_exists",
+      "item": "plustic:alumiteingot"
+    }
+  ],
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "plustic:alumiteingot"
+    }
+  ],
+  "result": {
+    "item": "plustic:alumitenugget",
+    "count": 9
+  }
 }

@@ -1,10 +1,10 @@
 package landmaster.plustic.entity.ai;
 
-import landmaster.plustic.entity.*;
-import net.minecraft.entity.ai.*;
+import landmaster.plustic.entity.EntityBlindBandit;
+import net.minecraft.entity.ai.EntityAIAttackMelee;
 
 public class EntityAIBlindBanditAttack extends EntityAIAttackMelee {
-	private int raiseArmTicks;
+    private int raiseArmTicks;
     private EntityBlindBandit bandit;
 
     public EntityAIBlindBanditAttack(EntityBlindBandit banditIn, double speedIn, boolean longMemoryIn) {

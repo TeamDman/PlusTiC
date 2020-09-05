@@ -1,23 +1,23 @@
 {
-	"conditions": [
-		{
-			"type": "minecraft:item_exists",
-			"item": "plustic:mirioningot"
-		}
-	],
-	"type": "forge:ore_shaped",
-	"pattern": [
-		"III",
-		"III",
-		"III"
-	],
-	"key": {
-		"I": {
-			"type": "forge:ore_dict",
-			"ore": "ingotMirion"
-		}
-	},
-	"result": {
-		"item": "plustic:mirionblock"
-	}
+  "conditions": [
+    {
+      "type": "minecraft:item_exists",
+      "item": "plustic:mirioningot"
+    }
+  ],
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotMirion"
+    }
+  },
+  "result": {
+    "item": "plustic:mirionblock"
+  }
 }

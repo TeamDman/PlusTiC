@@ -1,18 +1,18 @@
 {
-	"conditions": [
-		{
-			"type": "minecraft:item_exists",
-			"item": "plustic:osgloglasingot"
-		}
-	],
-	"type": "forge:ore_shapeless",
-	"ingredients": [
-		{
-			"item": "plustic:osgloglasingot"
-		}
-	],
-	"result": {
-		"item": "plustic:osgloglasnugget",
-		"count": 9
-	}
+  "conditions": [
+    {
+      "type": "minecraft:item_exists",
+      "item": "plustic:osgloglasingot"
+    }
+  ],
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "plustic:osgloglasingot"
+    }
+  ],
+  "result": {
+    "item": "plustic:osgloglasnugget",
+    "count": 9
+  }
 }

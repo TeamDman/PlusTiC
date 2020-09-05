@@ -1,5 +1,5 @@
 {
-	"textures": {
-		"layer0": "plustic:items/parts/laser_medium"
-	}
+  "textures": {
+    "layer0": "plustic:items/parts/laser_medium"
+  }
 }

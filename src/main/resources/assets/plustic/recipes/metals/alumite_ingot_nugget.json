@@ -1,23 +1,23 @@
 {
-	"conditions": [
-		{
-			"type": "minecraft:item_exists",
-			"item": "plustic:alumiteingot"
-		}
-	],
-	"type": "forge:ore_shaped",
-	"pattern": [
-		"III",
-		"III",
-		"III"
-	],
-	"key": {
-		"I": {
-			"type": "forge:ore_dict",
-			"ore": "nuggetAlumite"
-		}
-	},
-	"result": {
-		"item": "plustic:alumiteingot"
-	}
+  "conditions": [
+    {
+      "type": "minecraft:item_exists",
+      "item": "plustic:alumiteingot"
+    }
+  ],
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "nuggetAlumite"
+    }
+  },
+  "result": {
+    "item": "plustic:alumiteingot"
+  }
 }

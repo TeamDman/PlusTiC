@@ -1,18 +1,18 @@
 {
-	"conditions": [
-		{
-			"type": "minecraft:item_exists",
-			"item": "plustic:mirioningot"
-		}
-	],
-	"type": "forge:ore_shapeless",
-	"ingredients": [
-		{
-			"item": "plustic:mirioningot"
-		}
-	],
-	"result": {
-		"item": "plustic:mirionnugget",
-		"count": 9
-	}
+  "conditions": [
+    {
+      "type": "minecraft:item_exists",
+      "item": "plustic:mirioningot"
+    }
+  ],
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "plustic:mirioningot"
+    }
+  ],
+  "result": {
+    "item": "plustic:mirionnugget",
+    "count": 9
+  }
 }

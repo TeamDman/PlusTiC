@@ -1,23 +1,23 @@
 {
-	"conditions": [
-		{
-			"type": "minecraft:item_exists",
-			"item": "plustic:osmiridiumingot"
-		}
-	],
-	"type": "forge:ore_shaped",
-	"pattern": [
-		"III",
-		"III",
-		"III"
-	],
-	"key": {
-		"I": {
-			"type": "forge:ore_dict",
-			"ore": "ingotOsmiridium"
-		}
-	},
-	"result": {
-		"item": "plustic:osmiridiumblock"
-	}
+  "conditions": [
+    {
+      "type": "minecraft:item_exists",
+      "item": "plustic:osmiridiumingot"
+    }
+  ],
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotOsmiridium"
+    }
+  },
+  "result": {
+    "item": "plustic:osmiridiumblock"
+  }
 }

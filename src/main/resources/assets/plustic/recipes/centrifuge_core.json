@@ -1,35 +1,35 @@
 {
-	"conditions": [
-		{
-			"type": "minecraft:item_exists",
-			"item": "plustic:centrifuge"
-		}
-	],
-	"type": "forge:ore_shaped",
-	"pattern": [
-		"IRI",
-		"GFG",
-		"IRI"
-	],
-	"key": {
-		"I": {
-			"type": "forge:ore_dict",
-			"ore": "ingotIron"
-		},
-		"F": {
-			"item": "minecraft:furnace"
-		},
-		"R": {
-			"type": "forge:ore_dict",
-			"ore": "dustRedstone"
-		},
-		"G": {
-			"type": "forge:ore_dict",
-			"ore": "blockGlass"
-		}
-	},
-	"result": {
-		"item": "plustic:centrifuge",
-		"data": 1
-	}
+  "conditions": [
+    {
+      "type": "minecraft:item_exists",
+      "item": "plustic:centrifuge"
+    }
+  ],
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "IRI",
+    "GFG",
+    "IRI"
+  ],
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "R": {
+      "type": "forge:ore_dict",
+      "ore": "dustRedstone"
+    },
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "blockGlass"
+    }
+  },
+  "result": {
+    "item": "plustic:centrifuge",
+    "data": 1
+  }
 }
