@@ -1,0 +1,1 @@
+The files in this directory are mods that cannot be added as dependencies via available Maven repositories. These files are NOT licensed under the project's license, and are the property of their respective owners. They are included here for development purposes only.

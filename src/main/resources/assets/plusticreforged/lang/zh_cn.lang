@@ -1,0 +1,346 @@
+# TINKER TOOLS
+
+item.katana.name=武士刀
+item.katana.desc=武士刀是一种特殊武器，可对目标释放技能。\n可补充飞镖。
+item.laser_gun.name=激光枪
+item.laser_gun.desc=激光枪是一种精准的远程武器，使用时消耗耐久与能量。通过切换模式可熔炼方块。\n伤害与射程由传导器决定，而非枪管。
+
+item.pipe_piece.name=枪管
+item.laser_medium.name=激光传导器
+item.battery_cell.name=蓄电池
+
+# STATS
+
+stat.laser_medium.name=激光传导器
+stat.laser_medium.power.name=激光伤害：%s
+stat.laser_medium.power.desc=决定激光伤害值
+stat.laser_medium.range.name=射程：%s
+stat.laser_medium.range.desc=决定激光延伸距离
+
+stat.battery_cell.name=蓄电池
+stat.battery_cell.energy.name=能量储备：§6%s RF
+stat.battery_cell.energy.desc=决定存储的能量值
+
+# TINKER MATERIALS
+
+fluid.plustic.coal.name=熔融煤炭
+fluid.plustic.osmium.name=熔融锇
+fluid.plustic.refinedobsidian.name=熔融强化黑曜石
+fluid.plustic.terrasteel.name=熔融泰拉钢
+fluid.plustic.elementium.name=熔融源质钢
+fluid.plustic.manasteel.name=熔融魔力钢
+fluid.plustic.iridium.name=熔融铱
+fluid.plustic.osmiridium.name=熔融铱锇合金
+fluid.plustic.titanium.name=熔融钛
+fluid.plustic.alumite.name=熔融耐酸铝
+fluid.plustic.signalum.name=熔融信素
+fluid.plustic.platinum.name=熔融铂
+fluid.plustic.enderium.name=熔融末影
+fluid.plustic.nickel.name=熔融镍
+fluid.plustic.mirion.name=熔融蕴魔结晶
+fluid.plustic.psimetal.name=熔融Psi金属
+fluid.plustic.invar.name=熔融殷钢
+fluid.plustic.infinity.name=熔融无尽
+fluid.plustic.lumium.name=熔融流明
+fluid.plustic.kelline.name=熔融Kelline
+fluid.plustic.garfax.name=熔融Garfax
+fluid.plustic.morganine.name=熔融摩根
+fluid.plustic.racheline.name=熔融Racheline
+fluid.plustic.friscion.name=熔融Friscion
+fluid.plustic.thorium.name=熔融钍
+fluid.plustic.tungsten.name=熔融钨
+fluid.plustic.landium.name=熔融Landium
+fluid.plustic.desh.name=熔融戴斯
+fluid.plustic.refinedglowstone.name=熔融强化荧石
+fluid.plustic.osgloglas.name=熔融锇荧黑曜合金
+fluid.plustic.thaumium.name=熔融神秘
+fluid.plustic.starmetal.name=熔融星辉
+fluid.plustic.limonite.name=熔融褐铁
+fluid.plustic.rosite.name=熔融硫铜锑
+fluid.plustic.emberstone.name=熔融余烬石
+fluid.plustic.skeletal.name=熔融骷髅
+fluid.plustic.mystite.name=熔融神秘
+fluid.plustic.blazium.name=熔融烈焰
+fluid.plustic.netherite.name=熔融下界合金
+
+material.sapphire.name=蓝宝石
+material.ruby.name=红宝石
+material.peridot.name=橄榄石
+material.malachite_gem.name=孔雀石
+material.amber.name=琥珀
+material.topaz.name=黄玉
+material.tanzanite.name=坦桑石
+material.amethyst.name=紫晶
+material.osmium.name=锇
+material.refinedobsidian.name=强化黑曜石
+material.terrasteel.name=泰拉钢
+material.elementium.name=源质钢
+material.manasteel.name=魔力钢
+material.iridium.name=铱
+material.osmiridium.name=铱锇合金
+material.titanium.name=钛
+material.tnt.name=TNT
+material.alumite.name=耐酸铝
+material.witherbone.name=凋灵之骨
+material.guardianscale.name=守卫者合金
+material.signalum_plustic.name=信素
+material.enderium_plustic.name=末影
+material.platinum_plustic.name=铂
+material.nickel.name=镍
+material.invar.name=殷钢
+material.wyvern_plustic.name=双足飞龙
+material.awakened_plustic.name=觉醒龙
+material.chaotic_plustic.name=混沌
+material.mirion.name=蕴魔结晶
+material.livingwood_plustic.name=活木
+material.blackquartz_plustic.name=焦黑石英
+material.void_actadd_plustic.name=虚空
+material.emerald_plustic.name=翡翠
+material.darkwood_plustic.name=黑暗木
+material.psimetal.name=Psi金属
+material.psigem.name=Psi宝石
+material.infinity_avaritia_plustic.name=无尽
+material.lumium_plustic.name=流明
+material.kelline.name=Kelline
+material.garfax.name=Garfax
+material.morganine.name=摩根
+material.racheline.name=Racheline
+material.friscion.name=Friscion
+material.thorium.name=钍
+material.tungsten.name=钨
+material.landium.name=Landium
+material.pink_slime.name=粉色粘液
+material.pink_slime.prefix=粘液 %s
+material.desh.name=戴斯
+material.refinedglowstone.name=强化荧石
+material.darkmatter.name=暗物质
+material.redmatter.name=红物质
+material.phoenixite.name=凤凰玉
+material.enori_actadd_plustic.name=铁晶
+material.palis_actadd_plustic.name=青金石水晶
+material.restonia_actadd_plustic.name=红石水晶
+material.emeradic_actadd_plustic.name=绿宝石水晶
+material.diamatine_actadd_plustic.name=钻石水晶
+material.ghostwood_plustic.name=幽魂木
+material.fusewood_plustic.name=熔融木
+material.bloodwood_plustic.name=血木
+material.certusquartz_plustic.name=赛特斯石英
+material.fluixcrystal_plustic.name=福鲁伊克斯水晶
+material.osgloglas.name=Osgloglas
+material.mica.name=云母
+material.flamestring_plustic.name=火弦
+material.fiery.name=炽热金属
+material.litherite.name=莱泽尔
+material.erodium.name=艾洛蒂
+material.thaumium.name=神秘
+material.ionite.name=艾恩尼水晶
+material.kyronite.name=凯罗尼水晶
+material.pladium.name=普雷蒂水晶
+material.aethium.name=以太水晶
+material.starmetal.name=星辉
+material.limonite.name=褐铁
+material.rosite.name=硫铜锑
+material.sapphire_aoa.name=升华蓝宝石
+material.jade.name=翡翠
+material.crystallite.name=微晶
+material.emberstone.name=余烬石
+material.skeletal.name=骷髅
+material.mystite.name=神秘
+material.ghostlystone.name=幽灵石
+material.bloodstone.name=血之石
+material.blazium.name=烈焰
+material.netherite.name=下界合金
+
+modifier.bloodymary.name=血腥玛丽
+modifier.bloodymary.desc=§o传说中英格兰女王赐予你...§r\n根据目标已损失生命值造成额外伤害。每次攻击有概率掉落凝血。
+modifier.naturesblessing.name=自然祝福
+modifier.naturesblessing.desc=§o妙不可言...§r\n击杀怪物或破坏方块时有概率掉落面包。击杀怪物后可治疗玩家。
+modifier.natureswrath.name=自然之怒
+modifier.natureswrath.desc=§o大自然的愤怒在燃烧...§r\n攻击怪物后有概率使其燃烧，并治疗玩家。
+modifier.naturespower.name=自然之力
+modifier.naturespower.desc=§o感受力量...§r\n攻击怪物后：20%概率点燃目标，20%概率赋予玩家速度效果，20%概率赋予玩家力量效果。
+modifier.apocalypse.name=启示录
+modifier.apocalypse.desc=§o时间终结...§r\n目标将陷入濒死状态，并受到持续增强的凋零效果折磨。
+modifier.mana.name=Mana
+modifier.mana.desc=§o可充电的...用鲜花§r\nMana可代替装备耐久，并随时间自动修复工具。
+modifier.terrafirma.name=坚实基础
+modifier.terrafirma.desc=§o固体地球§r\n手持该工具时，生命值将随时间缓慢恢复。
+modifier.elemental.name=本源
+modifier.elemental.desc=§o元素...§r\n破坏受重力影响的方块时，同时破坏其上方与下方的同类方块。攻击成功时有几率获得多种增益效果。
+modifier.devilsstrength.name=恶魔之力
+modifier.devilsstrength.desc=§o堪比撒旦...§r\n对非主世界生物造成额外伤害。
+modifier.devilsstrength.extra=对异界生物：+%s
+modifier.anticorrosion.name=抗腐蚀
+modifier.anticorrosion.desc=§o以防你弄洒了化学药剂§r\n手持该工具时，每一游戏刻有微小概率解除持有者的中毒效果。
+modifier.light.name=轻金属
+modifier.light.desc=§o低重量§r\n提升挖掘速度与攻击速度。
+modifier.explosive.name=易爆
+modifier.explosive.desc=§o轰隆！§r\n每次命中都会引发爆炸。
+modifier.global.name=环球旅行者
+modifier.global.desc=§o全世界...折返§r\n潜行时右键点击容器方块，此后破坏的方块与击杀生物的掉落物将自动传送至该容器。
+modifier.thundering.name=雷鸣
+modifier.thundering.desc=§o崛起，托尔！§r\n召唤雷电攻击目标。
+modifier.divineshield.name=圣盾
+modifier.divineshield.desc=§o为守卫者所有，为守卫者所创，为守卫者所用§r\n手持工具时获得防火与伤害减免效果，同时消耗耐久。
+modifier.portly.name=憨厚的绅士
+modifier.portly.desc=§o在朝鲜海岸测试核弹，噢耶！§r\n潜行时右键点击实体可捕获它（根据实体生命值消耗耐久）。按"释放实体"键（默认"0"）将其释放。
+modifier.nickoftime.name=千钧一发
+modifier.nickoftime.desc=§o唷！§r\n按"设置传送门"键（默认"N"）在目标方块上设置虚拟传送点。当濒死时，若拥有 %d 颗末影珍珠且传送点上方有足够空间，将消耗珍珠将你传送至该点（工具需在手中）。
+modifier.blindbandit.name=盲目强盗
+modifier.blindbandit.desc=§o呀...有人。§r\n当你攻击或被攻击时，有时会召唤一个临时存在的"盲目强盗"。它会攻击敌对生物以及攻击者（除你之外），造成穿透伤害。
+modifier.brownmagic.name=布朗魔术
+modifier.brownmagic.desc=§o真是古怪§r\n按"设置传送门"键（默认"N"）在目标方块上设置虚拟传送点。按"Y"（默认键）可传送至该位置（需足够空间）。
+modifier.rudeawakening.name=惊醒
+modifier.rudeawakening.desc=§o九头蛇跪倒在我面前...§r\n穿透目标护甲（仅对怪物生效）。
+modifier.mirabile.name=光怪陆离
+modifier.mirabile.desc=§o看上去真奇妙§r\n偶尔会使你周围的石头中出现金矿或钻石矿（以消耗工具耐久为代价）。
+modifier.botanical.name=植物学
+modifier.botanical.desc=§o我早餐吃僵尸§r\n增加强化槽位；效果可显著叠加。
+modifier.heavy_metal.name=重金属
+modifier.heavy_metal.desc=§o退散！§r\n击退目标并施加缓慢效果。
+modifier.unnamed.name=佚名
+modifier.unnamed.desc=§o神秘人...§r\n对目标附近同类型实体造成额外伤害。
+modifier.darktraveler.name=暗黑行者
+modifier.darktraveler.desc=§o混沌之王万岁！§r\n周围的怪物会随机受到伤害。
+modifier.psicological.name=Psi生态学
+modifier.psicological.desc=§o...反转§r\n可使用Psi修复工具。
+modifier.illuminati.name=光照派
+modifier.illuminati.desc=§o确认！§r\n手持该工具时，附近未持有此特性的实体会发光，而你自身会隐形。
+modifier.unstablematter.name=不稳定物质
+modifier.unstablematter.desc=随机爆炸困扰你的敌人。受到攻击时，有几率获得伤害吸收效果。
+modifier.morganlefay.name=摩根勒菲
+modifier.morganlefay.desc=§o兰斯洛特卿...§r\n造成额外的魔法伤害（0.0至5.0高斯分布，绝对伤害）。
+modifier.sassy.name=无礼
+modifier.sassy.desc=§o无理取闹...§r\n对玩家和首领级生物造成暴击伤害。
+modifier.ignoble.name=卑鄙
+modifier.ignoble.desc=§o降到最低底线§r\n受伤时积累卑鄙值。启用此效果后，潜行攻击可释放积蓄的卑鄙值。
+modifier.getlucky.name=豪运
+modifier.getlucky.desc=§o如凤凰一般的传说...§r\n按"设置传送门"键（默认"N"）在目标方块上设置虚拟传送点。当濒死时，若拥有 %d 个凤凰宝石且传送点上方有足够空间，将消耗宝石将你传送至该点（工具需在手中）。
+modifier.vindictive.name=报复
+modifier.vindictive.desc=§o你不可原谅！§r\n对玩家造成额外伤害，攻击他们可回复自身生命值。
+modifier.starfishy.name=海星
+modifier.starfishy.desc=§o2+2=5§r\n按"设置传送门"键（默认"N"）在目标方块上设置虚拟传送点。当濒死时，若拥有 %d 个铁晶且传送点上方有足够空间，将消耗铁晶将你传送至该点（工具需在手中）。
+modifier.spades.name=黑桃
+modifier.spades.desc=§o王牌：让匠魂再次强大！§r\n生命值越低，造成的伤害越高。
+modifier.hearts.name=红心
+modifier.hearts.desc=§o嘿，那家伙模组上的加号是什么？§r\n生命值越高，造成的伤害越高。
+modifier.ghastly.name=恐怖
+modifier.ghastly.desc=§o哦，吓人！§r\n当持有者潜行时受到攻击，攻击者会被施加缓慢效果。
+modifier.slashing.name=斩击
+modifier.slashing.desc=§o致命一击！§r\n暴击伤害增加20%。
+modifier.naphtha.name=石脑油
+modifier.naphtha.desc=§o太阳的后裔§r\n箭矢与弩箭命中目标时将点燃目标。
+modifier.thaumic.name=神秘
+modifier.thaumic.desc=§o你回来了！§r\n赋予工具一个额外强化槽；若至少3个部件或整件工具由该材料制成，则获得两个额外强化槽。
+modifier.lightningrod.name=引雷针
+modifier.lightningrod.desc=§o这要么是附魔武器，要么是直通宙斯办公室的快速拨号。§r\n被此武器击中的敌人将遭受雷电轰击。
+modifier.fruitsalad.name=水果沙拉
+modifier.fruitsalad.desc=§o美味可口§r\n具有此特性的工具最多可储存5种水果。
+modifier.teamplayer.name=团队玩家
+modifier.teamplayer.desc=§o好了小队，我们空降哪里？§r\n攻击者附近的其他玩家越近，造成的额外伤害越高。
+modifier.musicofthespheres.name=天球乐章
+modifier.musicofthespheres.desc=§o"地球是平的！"史蒂夫说§r\n该工具同时可作为移动音响使用。
+modifier.goodfridayagreement_armor.name=耶稣受难日协议
+modifier.goodfridayagreement_armor.desc=§o纷争结束？§r\n铁傀儡不会攻击拥有此特性的玩家。
+modifier.camdaibay_armor.name=金兰湾
+modifier.camdaibay_armor.desc=§o不，这不是越南的某个海湾！§r\n玩家格挡时若被攻击，会将自身的负面状态效果施加给攻击者。
+modifier.dunanstransport_armor.name=杜南运输
+modifier.dunanstransport_armor.desc=§o一平方英尺土地的联邦快递§r\n为骑乘玩家提供额外的护甲值与韧性。
+modifier.invariant_armor.name=不变
+modifier.invariant_armor.desc=§o万物变迁，唯其不变。§r\n阻止附近爆炸对地形（非实体）造成的伤害。
+modifier.jetpackpancakehippos.name=喷气背包煎饼河马 (%s)
+modifier.jetpackpancakehippos.desc=§o着陆！§r\n赋予玩家使用能量飞行的能力（性能与所用喷气背包相同）。同时提升耐久。
+modifier.haorans_cult_armor.name=浩然之教
+modifier.haorans_cult_armor.desc=§o墙上的哈利，哈利，谁是他们中最毛茸茸的？§r\n凋零时，每秒减少一定范围内所有生物30%生命值。
+modifier.tom_and_jerry_armor.name=猫和老鼠
+modifier.tom_and_jerry_armor.desc=§o[汤姆被压扁的笑声]§r\n拥有此特性的玩家引发的爆炸会减缓受影响者的速度。
+modifier.im_a_superstar.name=我是超级明星
+modifier.im_a_superstar.desc=§o你是超级明星，无需金冠加冕§r\n效果取决于玩家的调和状态。
+modifier.jaded.name=厌倦
+modifier.jaded.desc=§o猫§r\n被此工具攻击的生物将暂时丧失治疗能力。
+modifier.aoa_threshold.name=需要 %s 等级 %d
+modifier.aoa_threshold.desc=§o你以为能偷偷用上强力工具是吧？§r\n该工具需要 %s 等级达到 %d。
+
+# MISCELLANEOUS
+
+item.tindust.name=锡粉
+item.osmiumdust.name=锇粉
+item.steeldust.name=钢粉
+item.osmiridiumingot.name=铱锇合金锭
+item.osmiridiumnugget.name=铱锇合金粒
+item.bronzenugget.name=青铜粒
+item.bronzeingot.name=青铜锭
+item.alumitenugget.name=耐酸铝粒
+item.alumiteingot.name=耐酸铝锭
+item.mirionnugget.name=蕴魔结晶粒
+item.mirioningot.name=蕴魔结晶锭
+item.invarnugget.name=殷钢粒
+item.invaringot.name=殷钢锭
+item.osgloglasnugget.name=锇荧黑曜合金粒
+item.osgloglasingot.name=锇荧黑曜合金锭
+
+tile.osmiridiumblock.name=铱锇合金块
+tile.alumiteblock.name=耐酸铝块
+tile.mirionblock.name=蕴魔结晶块
+tile.invarblock.name=殷钢块
+tile.osgloglasblock.name=Osgloglas块
+
+tile.centrifuge.tank.name=离心槽
+tile.centrifuge.core.name=离心核心
+
+# CHAT MESSAGES
+
+msg.plustic.globalmodifier.set=连接的容器位于 维度 %d [x=%d, y=%d, z=%d]
+msg.plustic.portlymodifier.set=已捕获实体 %s
+msg.plustic.portlymodifier.unset=已释放实体 %s
+msg.plustic.portal.set=传送点设置于 维度 %d [x=%d, y=%d, z=%d]
+msg.plustic.portal.armor.set=护甲传送点设置于 维度 %d [x=%d, y=%d, z=%d]
+msg.plustic.nickmodifier.use=千钧一发之际！
+msg.plustic.getlucky.use=我拼尽全力只为成为幸运儿！
+msg.plustic.brownmagic.use=你在开玩笑吧。
+msg.plustic.hailhydra.use=若一个§m九头蛇§r §n徽章§r被破坏，会有另外两个取代其位！
+msg.plustic.tool_mode=工具模式：%s
+msg.plustic.starfishy.use=似乎有海星在守护你。
+
+# TOOL MODES
+
+mode.laser_gun.attack=§9攻击
+mode.laser_gun.tool=§4熔炼
+
+# TOOLTIPS
+
+tooltip.plustic.globalmodifier.info=连接的容器位于 维度 %d [x=%d, y=%d, z=%d]
+tooltip.plustic.portlymodifier.info=实体：%s
+tooltip.plustic.ignoblemodifier.info=卑鄙值: §1%f
+tooltip.plustic.portal.info=传送点：维度 %d [x=%d, y=%d, z=%d]
+tooltip.plustic.toggle.info=点击切换
+tooltip.plustic.toggle.state.true=%s 当前 §a启用
+tooltip.plustic.toggle.state.false=%s 当前 §c禁用
+tooltip.plustic.centrifuge.fluid_info=流体: %s (%d mb)
+tooltip.plustic.sapphire.warn=§cAoA 3 蓝宝石是一种不同的材料
+
+# METER(S)
+
+meter.plustic.katana=连击等级：%d
+
+# CONTROLS
+
+key.categories.plustic=匠魂扩充
+key.plustic_release_entity.desc=释放实体
+key.plustic_toggle_gui.desc=切换GUI
+key.plustic_set_portal.desc=设置传送门
+key.plustic_brown_magic.desc=激活布朗魔术
+key.plustic_toggle_tool.desc=切换工具模式
+key.plustic_fruit_salad.desc=水果沙拉GUI
+key.plustic_mots.desc=余音绕梁GUI
+
+# ENTITIES
+
+entity.plustic.BlindBandit.name=盲目强盗
+entity.BlindBandit.name=盲目强盗
+
+# GUI
+
+gui.header.toggle=切换强化
+gui.toggle.armor=%s (护甲)
+gui.toggle.tool=%s (工具)

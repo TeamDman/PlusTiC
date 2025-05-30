@@ -1,0 +1,8 @@
+{
+  "parent": "forge:item/default",
+  "textures": {
+    "base": "minecraft:item/bucket",
+    "cover": "plusticreforged:item/bucket_fluid_cover",
+    "fluid": "plusticreforged:item/bucket_fluid"
+  }
+}

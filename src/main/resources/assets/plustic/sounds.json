@@ -1,8 +1,0 @@
-{
-	"laser_beam": {
-		"category": "player",
-		"sounds": [
-			"plustic:laser_beam"
-		]
-	}
-}
