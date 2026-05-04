@@ -12,6 +12,7 @@ import com.google.common.base.Throwables;
 
 import it.unimi.dsi.fastutil.ints.*;
 import landmaster.plustic.traits.*;
+import net.minecraft.entity.*;
 import net.minecraft.item.*;
 import net.minecraft.util.*;
 import net.minecraft.util.text.translation.*;
@@ -64,13 +65,14 @@ public class Config extends Configuration {
 	
 	public static boolean katana;
 	public static boolean laserGun;
-	
+
 	public static float katana_combo_multiplier;
 	public static boolean katana_boosts_only_on_killing;
 	public static boolean katana_smooth_progression;
 	
 	public static int laser_energy;
-	
+	// Blacklist to allow Specific Nerfs through config
+	public static Set<String> portlyEntityBlacklist = new HashSet<>();
 	public static int centrifugeEnergyPerMB;
 	
 	private static final IntArrayList botan_amount = new IntArrayList(Botanical.MAX_LEVELS);
@@ -182,7 +184,33 @@ public class Config extends Configuration {
 		
 		laserGun = getBoolean("Enable Laser Gun", "tools", true, "Enable Laser Gun");
 		laser_energy = getInt("Laser Gun Energy consumed", "tools", 100, 0, Integer.MAX_VALUE, "How much energy is used, by default, per laser attack");
-		
+
+		// Portly Gentleman Blaclist
+		portlyEntityBlacklist.clear();
+
+		String[] portlyEntityBlacklistArr = this.getStringList(
+				"Portly Gentleman entity blacklist",
+				"tweaks",
+				new String[0],
+				"Entity registry IDs that the Portly Gentleman trait is not allowed to capture.\n"
+						+ "Default is empty to preserve existing behavior.\n"
+						+ "Format: modid:entity_name\n"
+						+ "minecraft:wither\n"
+						+ "advancedrocketry:rocket\n"
+						+ "advancedrocketry:deployedRocket\n"
+						+ "twilightforest:knight_phantom\n"
+						+ "botania:doppelganger"
+		);
+
+		for (String entry : portlyEntityBlacklistArr) {
+			entry = entry.trim().toLowerCase(Locale.ROOT);
+
+			if (!entry.isEmpty()) {
+				portlyEntityBlacklist.add(entry);
+			}
+		}
+
+
 		// Trash
 		String[] trash_things_arr = getStringList("Trash generation", "tweaks",
 				new String[] {"20|coal", "5|slime_ball", "10|saddle",
@@ -311,6 +339,20 @@ public class Config extends Configuration {
 	
 	public void update() {
 		if (hasChanged()) save();
+	}
+
+	public static boolean isPortlyEntityBlacklisted(Entity entity) {
+		if (entity == null) {
+			return false;
+		}
+
+		ResourceLocation id = EntityList.getKey(entity);
+
+		if (id == null) {
+			return false;
+		}
+
+		return portlyEntityBlacklist.contains(id.toString().toLowerCase(Locale.ROOT));
 	}
 
 	public static boolean isCentrifugeRecipeValid(AlloyRecipe recipe) {

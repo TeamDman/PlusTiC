@@ -3,6 +3,7 @@ package landmaster.plustic.traits;
 import landmaster.plustic.*;
 import landmaster.plustic.api.*;
 import landmaster.plustic.net.*;
+import landmaster.plustic.config.*;
 import net.minecraft.client.resources.*;
 import net.minecraft.entity.*;
 import net.minecraft.entity.player.*;
@@ -46,8 +47,14 @@ public class Portly extends AbstractTrait {
 				|| !TinkerUtil.hasTrait(nbt, getIdentifier())
 				|| ToolHelper.getCurrentDurability(event.getItemStack()) < durabilityCost(event.getTarget())
 				|| nbt.hasKey("portlyGentleman", 10)
-				|| event.getTarget() instanceof EntityPlayer)
+				|| event.getTarget() instanceof EntityPlayer) return;
+		if (Config.isPortlyEntityBlacklisted(event.getTarget())) {
+			event.getEntityPlayer().sendStatusMessage(
+					new TextComponentTranslation("modifier.portly_blacklisted"),
+					true
+			);
 			return;
+		}
 		synchronized (event.getTarget()) {
 			nbt.setTag("portlyGentleman", event.getTarget().serializeNBT());
 			event.getItemStack().setTagCompound(nbt);

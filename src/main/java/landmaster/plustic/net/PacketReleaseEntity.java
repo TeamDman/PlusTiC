@@ -24,10 +24,17 @@ public class PacketReleaseEntity implements IMessage {
 			RayTraceResult rtr = ep.getEntityWorld().rayTraceBlocks(eye, eye.add(look));
 			NBTTagCompound nbt = TagUtil.getTagSafe(ep.getHeldItemMainhand());
 			if (ep.getEntityWorld().isRemote // for good measure
-					|| rtr == null || rtr.sideHit == null
 					|| ep.getHeldItemMainhand() == null
 					|| !TinkerUtil.hasTrait(nbt, Portly.portly.getIdentifier())
 					|| !nbt.hasKey("portlyGentleman", 10)) return;
+
+			if (rtr == null || rtr.sideHit == null) {
+				ep.sendStatusMessage(
+						new TextComponentTranslation("modifier.portly_release_no_target"),
+						true
+				);
+				return;
+			}
 			
 			Entity ent = EntityList.createEntityFromNBT(
 					nbt.getCompoundTag("portlyGentleman"), ep.getEntityWorld());
